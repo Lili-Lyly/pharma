@@ -8,18 +8,20 @@
 
 .card {
     width: 40%;
-    height: 40%;
+    height: 60%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     background: aqua;
     border-radius: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 .title {
     width: 100%;
-    height: 4rem;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +35,7 @@
 
 .inputs {
     width: 100%;
-    height: 10rem;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +57,7 @@
 
 .actions {
     width: 100%;
-    height: 4rem;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,11 +74,10 @@
     display: flex;
 }
 
-.auth, .register a {
+.auth, .register span {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .register {
