@@ -6,10 +6,10 @@ const Search = () => {
     return (
         <div className={'search-container'}>
             <div className={'search-part1'}>
-                <img style={{}} className={'search-logo'} src={logo}/>
+                <img className={'search-logo'} src={logo}/>
             </div>
             <div className={'search-part2'}>
-                <input placeholder={'Rechercher'} className={'search-input'}/>
+                <input type={'search'} placeholder={'Rechercher'} className={'search-input'}/>
                 <div className={'search-icon-container'}>
                     <img src={srh} className={'search-img'}/>
                 </div>
