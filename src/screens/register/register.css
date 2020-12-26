@@ -74,10 +74,11 @@
     display: flex;
 }
 
-.auth-rgister, .register-rgister span {
+.auth-rgister, .register-rgister a {
     color: #ffffff;
     font-size: 1.1rem;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .register-rgister {

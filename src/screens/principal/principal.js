@@ -1,8 +1,11 @@
 import './principal.css'
+import Navbar from "../../components/navbar/navbar";
 
 const Principal = () => {
     return (
-        <h1>Principal</h1>
+        <div>
+            <Navbar></Navbar>
+        </div>
     )
 }
 export default Principal;
