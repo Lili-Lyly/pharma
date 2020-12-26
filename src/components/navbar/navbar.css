@@ -20,7 +20,7 @@
     height: inherit;
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #ffffff;
 }
