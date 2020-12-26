@@ -17,9 +17,12 @@
 }
 
 .nav-bar-left {
-    background-color: aqua;
     height: inherit;
     width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
 }
 
 .nav-bar-right {
@@ -38,8 +41,28 @@
     margin-left: .8rem;
 }
 
+.nav-bar-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .8rem;
+}
+
 .nav-bar-item a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
+}
+
+.img-car {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-bar-item2 span span {
+    font-weight: bold;
+}
+
+.nav-bar-item2 span {
+    margin-left: 0.3rem;
 }
