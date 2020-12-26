@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar/navbar";
 
 const Principal = () => {
     return (
-        <div>
+        <div className={'principal-all'}>
             <Navbar></Navbar>
         </div>
     )
