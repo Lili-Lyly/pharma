@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className={'nav-bar-left'}>
                     <div className={'nav-bar-item2'}>
                         <img src={tel} className={'img-car'}/>
-                        <span>Appelez-nous au : <span>01 30 95 56 10.</span></span>
+                        <span>Appelez-nous au : <span>01 30 95 56 10</span></span>
                     </div>
                     <div className={'nav-bar-item2'}>
                         <img src={car} className={'img-car'}/>
