@@ -16,7 +16,8 @@ const NouvCard = () => {
                 <span className={'nouv-card-price'}>200$</span>
             </div>
             <div className={'nou-card-actions'}>
-
+                <div className={'nouv-card-btn'}>Details</div>
+                <div className={'nouv-card-btn'}>Acheter</div>
             </div>
         </div>
     )
