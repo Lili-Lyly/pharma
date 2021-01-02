@@ -22,15 +22,17 @@ const images = [
 ];
 const Slider = () => {
     return (
-        <div className={'container-slider'}>
-            <div className={'sub-container-slider'}>
-                <ImageGallery
-                    showBullets={true}
-                    showIndex={true}
-                    items={images}
-                />
+        <>
+            <div className={'container-slider'}>
+                <div className={'sub-container-slider'}>
+                    <ImageGallery
+                        showBullets={true}
+                        showIndex={true}
+                        items={images}
+                    />
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Slider;
