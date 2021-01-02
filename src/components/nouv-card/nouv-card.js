@@ -1,19 +1,18 @@
 import './nouv-card.css'
-import im1 from '../../assets/images/liquidguard-lingettes-de-désinfection-permanente.jpg'
 
-const NouvCard = () => {
+const NouvCard = (props) => {
     return (
         <div className={'nouv-card-container'}>
             <div className={'nouv-card-img-container'}>
-                <img src={im1} className={'nouv-card-img'}/>
+                <img src={props.image} className={'nouv-card-img'}/>
             </div>
             <div className={'nouv-card-description-container'}>
                 <span className={'nouv-card-description'}>
-                exemple text  sur ce medicament ...
+                    {props.title}
             </span>
             </div>
             <div className={'nouv-card-price-container'}>
-                <span className={'nouv-card-price'}>200$</span>
+                <span className={'nouv-card-price'}>{props.price}$</span>
             </div>
             <div className={'nou-card-actions'}>
                 <div className={'nouv-card-btn'}>Details</div>

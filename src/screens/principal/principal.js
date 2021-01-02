@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar/navbar";
 import Search from "../../components/search/search";
 import Slider from "../../components/slider/slider";
 import Nouv from "../../components/nouv/nouv";
-import NouvCard from "../../components/nouv-card/nouv-card";
+import ListNouvCard from "../../components/list-nouv-card/list-nouv-card";
 
 const Principal = () => {
     return (
@@ -13,7 +13,7 @@ const Principal = () => {
                 <Search/>
                 <Slider/>
                 <Nouv/>
-                <NouvCard></NouvCard>
+                <ListNouvCard/>
             </div>
         </>
     )
