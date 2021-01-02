@@ -6,14 +6,17 @@ import panier from '../../assets/images/panier.svg'
 import down from '../../assets/images/left-arrow.svg'
 
 const Search = () => {
-    const [degree, setDegree] = useState('rotate(90deg)');
+    const [degree, setDegree] = useState('rotate(-90deg)');
     const changeRetation = () => {
-        if (degree === 'rotate(90deg)') {
-            setDegree('rotate(-90deg)')
-        }
         if (degree === 'rotate(-90deg)') {
             setDegree('rotate(90deg)')
         }
+        if (degree === 'rotate(90deg)') {
+            setDegree('rotate(-90deg)')
+        }
+    }
+    const reset = () => {
+        setDegree('rotate(-90deg)')
     }
 
     return (
@@ -35,7 +38,9 @@ const Search = () => {
                 </div>
                 <div className={'right-search'}>
                     <img style={{transform: degree}}
-                         onMouseOver={changeRetation} src={down}
+                         onMouseOver={changeRetation}
+                         onMouseLeave={reset}
+                         src={down}
                          className={'search-down'}/>
                 </div>
             </div>
