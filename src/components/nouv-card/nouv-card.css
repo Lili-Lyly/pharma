@@ -1,0 +1,28 @@
+
+.nouv-card-container {
+    width: 18rem;
+    height: 30rem;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.nouv-card-img-container {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nouv-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.nouv-card-description-container, .nouv-card-price-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
