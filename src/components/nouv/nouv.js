@@ -1,7 +1,11 @@
+import './nouv.css'
+
 const Nouv = () => {
     return (
         <div className={'nouv-container'}>
-            <span className={'nouv-title'}>Nouveautés</span>
+            <div className={'sub-container-nouv'}>
+                <span className={'nouv-title'}>Nouveautés</span>
+            </div>
         </div>
     )
 }
