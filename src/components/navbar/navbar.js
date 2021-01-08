@@ -1,9 +1,14 @@
 import './navbar.css'
-import {Link} from "react-router-dom";
+import {Link, useHistory} from "react-router-dom";
 import car from '../../assets/images/noun_Truck_3667956.svg'
 import tel from '../../assets/images/noun_Telephone_637372.svg'
+import Button from "@material-ui/core/Button";
 
 const Navbar = () => {
+    const history = useHistory();
+    const navigate = (path) => {
+        history.push(path)
+    }
     return (
         <div className={'nav-bar-container'}>
             <div className={'nav-bar-sub-container'}>
@@ -18,6 +23,9 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className={'nav-bar-right'}>
+                    <Button onClick={() => navigate('/add-item')} variant="contained" color="primary">
+                        Ajouter Item
+                    </Button>
                     <div className={'nav-bar-item'}>
                         <Link to="/">Blog</Link>
                     </div>
