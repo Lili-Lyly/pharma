@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 
 const AddItem = () => {
     const classes = useStyles();
-    const [cat, setCat] = useState(10)
+    const [cat, setCat] = useState(1)
     return (
         <div className={'add-item-container'}>
             <Card className={'add-item-card'}>
