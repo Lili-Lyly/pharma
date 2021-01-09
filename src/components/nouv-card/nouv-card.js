@@ -1,10 +1,11 @@
 import './nouv-card.css'
 
+const uri = 'http://localhost:3001/'
 const NouvCard = (props) => {
     return (
-        <div className={'nouv-card-container'}>
+        <div key={props.image} className={'nouv-card-container'}>
             <div className={'nouv-card-img-container'}>
-                <img src={props.image} className={'nouv-card-img'}/>
+                <img src={uri + props.image} className={'nouv-card-img'}/>
             </div>
             <div className={'nouv-card-description-container'}>
                 <span className={'nouv-card-description'}>
